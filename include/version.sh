@@ -24,7 +24,7 @@ LuaNginxModule='lua-nginx-module-0.10.26'
 LuaRestyCore='lua-resty-core-0.1.28'
 LuaRestyLrucache='lua-resty-lrucache-0.13'
 NgxDevelKit='ngx_devel_kit-0.3.3'
-Nginx_Ver='nginx-1.26.2'
+Nginx_Ver='nginx-1.26.3'
 NgxFancyIndex_Ver='ngx-fancyindex-0.5.2'
 if [ "${DBSelect}" = "1" ]; then
     Mysql_Ver='mysql-5.1.73'
@@ -72,18 +72,18 @@ elif [ "${PHPSelect}" = "10" ]; then
 elif [ "${PHPSelect}" = "11" ]; then
     Php_Ver='php-8.0.30'
 elif [ "${PHPSelect}" = "12" ]; then
-    Php_Ver='php-8.1.29'
+    Php_Ver='php-8.1.31'
 elif [ "${PHPSelect}" = "13" ]; then
-    Php_Ver='php-8.2.23'
+    Php_Ver='php-8.2.27'
 elif [ "${PHPSelect}" = "14" ]; then
-    Php_Ver='php-8.3.11'
+    Php_Ver='php-8.3.16'
 fi
 if [[ "${PHPSelect}" =~ ^[123]$ ]]; then
     PhpMyAdmin_Ver='phpMyAdmin-4.0.10.20-all-languages'
 elif [[ "${PHPSelect}" =~ ^[456]$ ]]; then
     PhpMyAdmin_Ver='phpMyAdmin-4.9.11-all-languages'
 else
-    PhpMyAdmin_Ver='phpMyAdmin-5.2.1-all-languages'
+    PhpMyAdmin_Ver='phpMyAdmin-5.2.2-all-languages'
 fi
 APR_Ver='apr-1.7.4'
 APR_Util_Ver='apr-util-1.6.3'
@@ -96,10 +96,10 @@ fi
 Pureftpd_Ver='pure-ftpd-1.0.51'
 
 XCache_Ver='xcache-3.2.0'
-ImageMagick_Ver='ImageMagick-7.1.1-8'
+ImageMagick_Ver='ImageMagick-7.1.1-23'
 Imagick_Ver='imagick-3.7.0'
 ZendOpcache_Ver='zendopcache-7.0.5'
-Redis_Stable_Ver='redis-7.0.11'
+Redis_Stable_Ver='redis-7.2.3'
 PHPRedis_Ver='redis-5.3.7'
 Memcached_Ver='memcached-1.6.15'
 Libmemcached_Ver='libmemcached-1.0.18'
